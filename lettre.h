@@ -1,0 +1,4 @@
+#ifndef LETTRE_H_INCLUDED
+#define LETTRE_H_INCLUDED
+
+#endif // LETTRE_H_INCLUDED

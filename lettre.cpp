@@ -1,36 +1,23 @@
 #include "lettre.h"
+#include <string>
 
-class Mot
-{
 
-bool lettreDansMot(char l)
-{
-  for(int i=0; i< longueur_restante; ++i)
+Mot::Mot(std::string m)
   {
-    if (l == mot[i])
-    {
-      return True
-    }
-
+    mot = m;
+    longueur = mot.size()
+    longueur_restante = longueur
   }
-  return False
-}
 
+bool Mot::lettreDansMot(char l)
+  {
+    for(int i=0; i< longueur_restante; ++i)
+    {
+      if (l == mot[i])
+      {
+        return True;
+      }
 
-
-
-
-
-
-
-
-
-
-
-  string mot;
-  int longueur;
-  int longueur_restante;
-
-
-
-}
+    }
+    return False;
+  }

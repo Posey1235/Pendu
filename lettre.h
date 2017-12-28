@@ -5,11 +5,12 @@ class Mot
 {
   public:
 
+  Mot(std::string m);
   bool lettreDansMot(char l);
 
   private:
 
-  string mot;
+  std::string mot;
   int longueur;
   int longueur_restante;
 
